@@ -8,6 +8,8 @@ with newer versions of Cordova. Uses a Promise based interface in JavaScript.
 This plugin is integrated to Stripe, if you want an integrated-less plugin you can use
 [cordova-plugin-applepay](https://www.npmjs.com/package/cordova-plugin-applepay)
 
+Stripe integration version 6.5.0 2018-02-28 
+
 ## Installation
 ```
 $ cordova plugin add --save cordova-plugin-applepay-stripe \
@@ -22,7 +24,7 @@ exposes the `window.ApplePay` global in the browser.
 
 ## Compatibility
 
-- iOS 9 (using newer iOS9 only APIs)
+- iOS 9 - iOS 11 (using newer APIs)
 - iOS 8 (using initial Apple Pay APIs from iOS8 that are deprecated in iOS9)
 - iOS 7 and older (no Apple Pay, but doesn't affect code)
 - Requires Cordova 6 running at least iOS Platform 4.1.1
